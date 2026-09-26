@@ -5,7 +5,8 @@
 - [x] Create initial README
 - [x] Finalize network architecture and addressing
 - [x] Prepare Hyper-V environment
-
+- [x] Create initial network architecture diagram
+      
 ## Phase 1 — Hyper-V Networking
 - [ ] Review existing Hyper-V virtual switches
 - [ ] Create Site A LAN virtual switch
