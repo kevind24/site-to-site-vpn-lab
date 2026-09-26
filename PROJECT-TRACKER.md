@@ -23,12 +23,12 @@
 - [x] Verify pfSense endpoint configuration
 
 ## Phase 3 — IPsec Site-to-Site VPN
-- [ ] Configure Site A IPsec settings
-- [ ] Configure Site B IPsec settings
-- [ ] Configure Phase 1 parameters
-- [ ] Configure Phase 2 parameters
-- [ ] Configure required firewall rules
-- [ ] Establish IPsec tunnel
+- [x] Configure Site A IPsec settings
+- [x] Configure Site B IPsec settings
+- [x] Configure Phase 1 parameters
+- [x] Configure Phase 2 parameters
+- [x] Configure required firewall rules
+- [x] Establish IPsec tunnel
 
 ## Phase 4 — Validation & Troubleshooting
 - [ ] Verify IPsec tunnel status
