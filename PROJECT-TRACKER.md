@@ -8,11 +8,11 @@
 - [x] Create initial network architecture diagram
       
 ## Phase 1 — Hyper-V Networking
-- [ ] Review existing Hyper-V virtual switches
-- [ ] Create Site A LAN virtual switch
-- [ ] Create Site B LAN virtual switch
-- [ ] Create WAN/transit virtual switch
-- [ ] Verify virtual network configuration
+- [x] Review existing Hyper-V virtual switches
+- [x] Create Site A LAN virtual switch
+- [x] Create Site B LAN virtual switch
+- [x] Create WAN/transit virtual switch
+- [x] Verify virtual network configuration
 
 ## Phase 2 — VPN Endpoints
 - [ ] Obtain pfSense installation media
