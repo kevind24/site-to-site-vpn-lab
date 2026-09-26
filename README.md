@@ -27,7 +27,7 @@ The lab uses Hyper-V to create a virtual network environment and pfSense as the 
 
 ## Network Architecture
 
-![Site-to-Site VPN Architecture](site-to-site-vpn-architecture.png)
+![Site-to-Site VPN Architecture](Site-to-Site%20VPN%20Architecture.png)
 
 | Site | Interface | IP Address / Network |
 |------|-----------|----------------------|
