@@ -31,13 +31,34 @@
 - [x] Establish IPsec tunnel
 
 ## Phase 4 — Validation & Troubleshooting
-- [ ] Verify IPsec tunnel status
-- [ ] Verify security associations
-- [ ] Test traffic across the VPN
-- [ ] Capture validation evidence
-- [ ] Introduce one intentional configuration failure
-- [ ] Diagnose and resolve the failure
-- [ ] Document troubleshooting results
+- [x] Verify IPsec tunnel status
+- [x] Verify security associations
+- [x] Test traffic across the VPN
+- [x] Capture validation evidence
+- [x] Introduce one intentional configuration failure
+- [x] Diagnose and resolve the failure
+- [x] Document troubleshooting results
+
+### Troubleshooting Exercise
+
+**Intentional failure:**  
+Changed the Site B Phase 2 encryption proposal from AES-256 to AES-GCM-128 while leaving Site A configured for AES-256 only.
+
+**Observed behavior:**  
+Phase 1 (IKE_SA) established successfully, but Phase 2 (CHILD_SA) failed to establish.
+
+**Diagnostic evidence:**  
+The pfSense IPsec log reported:
+`failed to establish CHILD_SA, keeping IKE_SA`
+
+**Root cause:**  
+The Phase 2 encryption proposals on the two VPN endpoints did not match.
+
+**Corrective action:**  
+Restored AES-256 as the Phase 2 encryption algorithm on Site B, applied the configuration, and re-established the IPsec tunnel.
+
+**Final validation:**  
+Phase 1 and Phase 2 successfully re-established, and a Site B → Site A ping completed with 0% packet loss.
 
 ## Phase 5 — Portfolio Documentation
 - [ ] Create final network architecture diagram
