@@ -61,13 +61,13 @@ Restored AES-256 as the Phase 2 encryption algorithm on Site B, applied the conf
 Phase 1 and Phase 2 successfully re-established, and a Site B → Site A ping completed with 0% packet loss.
 
 ## Phase 5 — Portfolio Documentation
-- [ ] Create final network architecture diagram
-- [ ] Add relevant screenshots
-- [ ] Document configuration and validation
-- [ ] Document troubleshooting scenario
-- [ ] Add lessons learned
-- [ ] Review README for accuracy
-- [ ] Mark project complete
+- [x] Create final network architecture diagram
+- [x] Add relevant screenshots
+- [x] Document configuration and validation
+- [x] Document troubleshooting scenario
+- [x] Add lessons learned
+- [x] Review README for accuracy
+- [x] Mark project complete
 
 ---
 
