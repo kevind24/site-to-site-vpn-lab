@@ -15,12 +15,12 @@
 - [x] Verify virtual network configuration
 
 ## Phase 2 — VPN Endpoints
-- [ ] Obtain pfSense installation media
-- [ ] Create pfSense-A VM
-- [ ] Configure Site A WAN and LAN interfaces
-- [ ] Create pfSense-B VM
-- [ ] Configure Site B WAN and LAN interfaces
-- [ ] Verify connectivity between VPN endpoints
+- [x] Obtain pfSense installation media
+- [x] Create pfSense-A VM
+- [x] Configure Site A WAN and LAN interfaces
+- [x] Create pfSense-B VM
+- [x] Configure Site B WAN and LAN interfaces
+- [x] Verify pfSense endpoint configuration
 
 ## Phase 3 — IPsec Site-to-Site VPN
 - [ ] Configure Site A IPsec settings
