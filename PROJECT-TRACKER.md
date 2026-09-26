@@ -3,8 +3,8 @@
 ## Phase 0 — Planning & GitHub Setup
 - [x] Create GitHub repository
 - [x] Create initial README
-- [ ] Finalize network architecture and addressing
-- [ ] Prepare Hyper-V environment
+- [x] Finalize network architecture and addressing
+- [x] Prepare Hyper-V environment
 
 ## Phase 1 — Hyper-V Networking
 - [ ] Review existing Hyper-V virtual switches
